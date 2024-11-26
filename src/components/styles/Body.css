@@ -65,3 +65,29 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+/* Header.js */
+.slogan-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px; /* Consistent padding on both sides */
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.slogan-container-left {
+    font-weight: 500px;
+    font-size: 42px;
+    margin-bottom: 0px; 
+}
+
+.slogan-container-left p {
+    margin: 0; 
+}
+
+.slogan-container-right {
+    font-size: 16px; 
+    color: #333; 
+}
